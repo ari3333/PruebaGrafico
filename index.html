@@ -1,40 +1,205 @@
 <!doctype html>
-<html>
+<html id='MyApp'>
 <head>
 	<link rel="shortcut icon" href="#">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<link rel="stylesheet" href="Bootstrap_4/css/bootstrap.min.css" >
+	<!--<link rel="stylesheet" href="Bootstrap_4/css/bootstrap.min.css" >-->
 	<link rel="stylesheet" href="estilos.css">
+
 </head>
-<body>
-	<header>
-		<h1 class="text-center text-light">Descargar <span class="badge badge-success">Gráfico</span></h1>
+<body id='mybody'>
+	<!-- Inicio de cabecera -->
+	<header id="header">
+		<div class="wrap">
+			<nav id="menu">
+				<ul>
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Referenciación Lactea</a></li>
+					<li><a href="#">Indicadores sectoriales</a></li>
+					<li><a href="#">Informacion del sector</a></li>
+				</ul>
+			</nav>
+		</div>
 	</header>
+	<!-- Fin de cabecera -->
 
-	<div class="container mt-5">
-		<!--En este container se muestra el grafico-->
-		<div id="contenedor" style="min-width: 320px; height: 400px; margin: 0px auto"></div>
+	<!-- Inicio del contenido central -->
+	<section id="contentSection" class="wrap wrap-content">
+		<section id="articles">
 
-		<div id="chart_exchange" style="width: 250px; height: 100px; margin: 0px auto"></div>
-		<button id="export">Exportar a PDF</button>
-		<canvas id="chart_exchange_canvas" width="900" height="800" style="display: none;"></canvas>
-	</div>
+			<div id="page-title" class="titulo">
+				<h1 id="title">Lorem Ipsum is simply dummy text typesetting industry.</h1>
+			</div>
 
+			<!--Valor publicado-->
+			<article id="article" class="article">
+				<div  id="valor" class="valor">
+					<h3>Último valor publicado: <span class="info">Enero 2020</span></h3>
+					<p>
+						Variación con respecto al mes anterior:<span class="info dato">-0,59%</span>
+					</p>
+					<span class="date">[20-12-2020. Arianny Osoria]</span>
+				</div>
+
+				<div  id="des1" class="descripcion">
+					<p class="text">Descripción del indicador:</p><hr>
+					<p class="text-success">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, urna ut consequat mollis, diam leo mollis dolor, vitae elementum metus leo a sem. Aliquam imperdiet odio vitae consectetur scelerisque. Aliquam ultricies sapien eu turpis eleifend eleifend in id sapien.</p>
+					<p class="text-success">Vivamus maximus, ante quis rhoncus aliquet, arcu nisl volutpat elit, ac pharetra arcu dui ac mi. Donec tristique ultricies eros, et commodo dui posuere ac. Curabitur tristique ante velit, at posuere sem lacinia non. Suspendisse egestas lacus in semper viverra. Mauris pulvinar aliquam augue, id finibus dolor.</p>
+				</div>
+
+				<div class="clearfix"></div>
+				<!--En este container se muestra el grafico-->
+				<div id="container" style="height: 350px"></div>
+
+			</article>
+			<div class="clearfix"></div>
+
+			<article id="article3">
+				<div class="descripcion d1">
+					<p class="text">Descripción del indicador:</p><hr>
+					<p class="text-success">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, urna ut consequat mollis, diam leo mollis dolor, vitae elementum metus leo a sem. Aliquam imperdiet odio vitae consectetur scelerisque. Aliquam ultricies sapien eu turpis eleifend eleifend in id sapien.</p>
+				</div>
+				<div id="des" class="descripcion d1">
+					<p class="text">Descripción del indicador:</p><hr>
+					<p class="text-success">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, urna ut consequat mollis, diam leo mollis dolor, vitae elementum metus leo a sem. Aliquam imperdiet odio vitae consectetur scelerisque. Aliquam ultricies sapien eu turpis eleifend eleifend in id sapien.</p>
+				</div>
+				<div class="clearfix"></div>
+				<div class="descripcion">
+					<p class="text">Descripción del indicador:</p><hr>
+					<p class="text-success">Vivamus maximus, ante quis rhoncus aliquet, arcu nisl volutpat elit, ac pharetra arcu dui ac mi. Donec tristique ultricies eros, et commodo dui posuere ac. Curabitur tristique ante velit, at posuere sem lacinia non. Suspendisse egestas lacus in semper viverra. Mauris pulvinar aliquam augue, id finibus dolor.</p>
+				</div>
+				<div class="descripcion">
+					<p class="text">Descripción del indicador:</p><hr>
+					<p class="text-success">Vivamus maximus, ante quis rhoncus aliquet, arcu nisl volutpat elit, ac pharetra arcu dui ac mi. Donec tristique ultricies eros, et commodo dui posuere ac. Curabitur tristique ante velit, at posuere sem lacinia non. Suspendisse egestas lacus in semper viverra. Mauris pulvinar aliquam augue, id finibus dolor.</p>
+				</div>
+			</article>
+		</section>
+		<div id="buttonrow">
+
+
+			<!--Boton para exportar en pdf-->
+			<a href="javascript:downloadPDF()" id="export" class="btn btn-primary">Exportar a PDF</a>
+			<!--<button id="export" onclick="downloadPDF()">Exportar a PDF</button>-->
+		</div>
+	</section>
+	<!-- Fin del contenido central -->
 	<!-- jQuery, Popper.js, Bootstrap JS -->
 	<script src="JQuery/jquery-3.5.1.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="Bootstrap_4/js/bootstrap.min.js"></script>
-	<!-- Highcharts JS -->
-	<script src="pluggins/Highcharts_8.2.0/code/highcharts.js"></script>
-	<script src="pluggins/Highcharts_8.2.0/code/modules/exporting.js"></script>
-	<script src="pluggins/Highcharts_8.2.0/code/modules/export-data.js"></script>
+		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+			<script src="Bootstrap_4/js/bootstrap.min.js"></script>-->
+			<!-- Highcharts JS -->
+			<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.1.1/jspdf.umd.min.js"></script>-->
+			<script src="pluggins/Highcharts_8.2.0/code/highcharts.js"></script>
+			<script src="pluggins/Highcharts_8.2.0/code/modules/exporting.js"></script>
+			<script src="https://code.highcharts.com/modules/offline-exporting.js"></script>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.27/pdfmake.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.27/vfs_fonts.js"></script>
+			<!--https://stackoverrun.com/es/q/7106084
+			BUSCAR EN GOOGLE:  addhtml jspdf
+			http://plnkr.co/edit/nNSvHL8MZcT6nNKg9CG9?preview
+		-->
 
-	<!-- Codigo que ejecuta los graficos -->
-	<script src="codigoJS.js"></script>
+		<!--<script src="pluggins/jsPDF/jspdf.debug.js"></script>-->
+		<script src="pluggins/jsPDF-master/dist/jspdf.min.js"></script>
+		<script src="pluggins/jsPDF-master/dist/polyfills.umd.js"></script>
+		<script src="pluggins/jsPDF-master/dist/jspdf.umd.js"></script>
+		<!--<script src="pluggins/jsPDF-master/dist/jspdf.min.js"></script>-->
+		<!--<script src="pluggins/html2canvas.js"></script>-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+		<!--<script src="pluggins/jsPDF-master/dist/polyfills.umd.js"></script>
+		<script src="pluggins/jsPDF-master/dist/jspdf.umd.js"></script>-->
+
+		<!--<script src="https://github.com/devongovett/pdfkit/releases/download/v0.6.2/pdfkit.js"></script>-->
+		<script src="pluggins/rgbcolor.min.js"></script>
+		<script src="pluggins/stackblur.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/canvg/1.5/canvg.js"></script>
+		<!--<script src="pluggins/canvg.js"></script>-->
+
+		<!--<script src="pluggins/Highcharts_8.2.0/code/modules/export-data.js"></script>-->
+		<!--<script src="https://code.highcharts.com/modules/offline-exporting.js"></script>-->
+
+
+		<!--<script type="text/javascript" src="dist/jspdf.js"></script>-->
+		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.1.1/jspdf.umd.min.js"></script>-->
+		<!--script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>-->
+		<!--<script type="text/javascript" src="pluggins/jsPDF/polyfills.umd.js"></script>-->
+
+
+		<!-- Codigo que ejecuta los graficos -->
+		<script src="prueba22.js"></script>
+		<!--<script>
+			function pdf(){
+				var svg = document.querySelector('svg');
+				var canvas = document.createElement('canvas');
+				var canvasIE = document.createElement('canvas');
+				var context = canvas.getContext('2d');
+				var DOMURL = window.URL || window.webkitURL || window;
+				var data = (new XMLSerializer()).serializeToString(svg);;
+
+				var svgBlob = new Blob([data], {
+					type: 'image/svg+xml;charset=utf-8'
+				});
+            var url = DOMURL.createObjectURL(svgBlob);  //crea un DOMString
+
+            console.log('url: ' + url);
+            function isIEBrowser() {
+            	var ieBrowser;
+            	var ua = window.navigator.userAgent;
+            	var msie = ua.indexOf("MSIE ");
+
+                if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv:11./)) // Internet Explorer
+                {
+                	ieBrowser = true;
+                }
+                else  //Otro navegador
+                {
+                	console.log('Otro navegador');
+                	ieBrowser = false;
+                }
+
+                return ieBrowser;
+            };
+
+            var doc = new jsPDF('portrait', 'pt', 'a4', true);
+            doc.addHTML(document.body, function () {
+
+            	var img = new Image();
+            	img.onload = function () {
+            		context.canvas.width = $('#container').find('svg').width();
+            		context.canvas.height = $('#container').find('svg').height();
+            		context.drawImage(img, 0, 0);
+                    // liberando la memoria a medida que la imagen se dibuja en el lienzo
+                    DOMURL.revokeObjectURL(url);
+
+                    var dataUrl;
+                    if (isIEBrowser()) { // Comprobación del navegador IE
+                    	var svg = $('#container').highcharts().container.innerHTML;
+                    	canvg(canvasIE, svg);
+                    	dataUrl = canvasIE.toDataURL('image/JPEG');
+                    }
+                    else {
+                    	dataUrl = canvas.toDataURL('image/jpeg');
+                    }
+                    doc.addImage(dataUrl, 'JPEG', 20, 250, 560, 250);
+
+                    var article = document.getElementById("article");
+
+
+                    doc.page = 1; // use this as a counter.
+                    var totalPages = 1; // define total amount of pages
+                    // HEADER
+                    doc.setFontSize(20);
+                    // FOOTER
+                    var str = "Page " + doc.page; doc.setFontSize(10);
+                    doc.text(str, 50, doc.internal.pageSize.height - 10);
+
+                    doc.save('Silac.pdf');
+                };
+
+                img.src = url;
+            });
+        }
+    </script>-->
 </body>
 </html>

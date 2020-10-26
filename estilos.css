@@ -1,7 +1,159 @@
-body{
-    background: #414146;
+/* Generales*/
+* {
+	margin: 0px;
+	padding: 0px;
 }
 
-header{
-    background: #47475c;
+.wrap {
+	width: 1200px;
+	margin: 0px auto;/*centrar un elemento*/
+}
+
+.clearfix {
+	float: none;
+	clear: both;
+}
+
+/*CABECERA*/
+#header {
+	width: 100%;
+	height: 70px;
+	background-color: black;
+	color: white;
+}
+
+/*Menu*/
+#menu {
+	float: right;
+	height: 70px;
+	background: transparent;
+}
+#menu ul li {
+	font-size: 24px;
+	display: inline-block;
+	margin: 0px 20px 0px 20px;/*margenes a la izquierda y a la derecha*/
+	letter-spacing: 1px;/*espacio entre las letras*/
+	line-height: 70px;/*para que se quede en el centro*/
+}
+
+/*estilo a los enlaces del mennu*/
+#menu ul li a {
+	display: block;/*para que se comporten como un bloque*/
+	color: white;
+	text-decoration: none;/*para que no tengan el subrayado debajo los enlaces*/
+	transition: all 200ms;
+}
+/*cuando le pase por encima haga un efecto*/
+#menu ul li a:hover {
+	color: #37bcf9;
+	transform: scale(1.2, 1.2 );/*EFECTO DE cambio de un poco de tamaño la letra sin afectar */
+}
+.titulo {
+	width: 100%;
+	background: #0DDDF2;
+}
+
+#title {
+	font-family: Arial,sans-serif, Helvetica;
+	font-size: 15px;
+	color: white;
+	padding: 5px 5px 5px 5px;
+}
+
+#articles {
+	width: 100%;
+	height: auto;
+	margin: 40px;
+	padding: 10px;
+	color: black;
+	overflow: auto;
+}
+
+article {
+	margin-top: 20px;
+}
+
+.valor {
+	float: left;
+	display: block;
+	width: 308px;
+	height: 90px;
+	margin: 10px;
+	padding: 30px;
+	background-color: #eee;
+	border-radius: 5px;
+	box-shadow: 1px 1px 4px #ccc inset;
+}
+.valor h3 {
+	font-weight: bold;
+	font-family: Arial;
+	text-align: left;
+	line-height: 20px;
+	color:red;
+}
+
+.valor p {
+	display: block;
+	margin-top: 10px;
+	color: gray;
+}
+
+.info {
+	display: block;
+	float: right;
+}
+#article3 {
+	padding: 50px;
+}
+
+.descripcion {
+	margin-top: 10px;
+	padding: 10px;
+}
+.text {
+	color: green;
+}
+
+.d1 {
+	display: block;
+	width: 480px;
+	float: left;
+}
+
+.dato {
+	color: green;
+}
+
+.date {
+	display: block;
+	margin-top: 10px;
+	color: blue;
+}
+
+#buttonrow {
+	max-width: 600px;
+	min-width: 320px;
+	margin-top: 10px;
+}
+
+.btn {
+	height: min-content !important;
+}
+
+/*estilos para pdf*/
+.t {
+	color:#333333;
+	font-size:18px;
+	fill:#333333;
+}
+.v {
+	float: left;
+	display: block;
+	font-family: Arial;
+	color: red;
+	text-align: center;
+	line-height: 20px;
+	background-color: #eee;
+	border-radius: 5px;
+	box-shadow: 1px 1px 4px #ccc inset;
 }
