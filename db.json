@@ -23,6 +23,126 @@
       "espacio_datos": true,
       "sandbox": false,
       "markeplace": true
+    },
+    {
+      "id_empresa": "3",
+      "nombre_empresa": "Empresa3",
+      "cif": "A12345678",
+      "direccion": "calle3",
+      "tlf_empresa": "6000000",
+      "persona_contacto": "contacto3@example.com",
+      "tlf_contacto": "6001111",
+      "espacio_datos": false,
+      "sandbox": true,
+      "markeplace": false
+    },
+    {
+      "id_empresa": "4",
+      "nombre_empresa": "Empresa4",
+      "cif": "B87654321",
+      "direccion": "avenida 4",
+      "tlf_empresa": "6002222",
+      "persona_contacto": "contacto4@example.com",
+      "tlf_contacto": "6003333",
+      "espacio_datos": true,
+      "sandbox": true,
+      "markeplace": true
+    },
+    {
+      "id_empresa": "5",
+      "nombre_empresa": "Empresa5",
+      "cif": "C12349876",
+      "direccion": "plaza 5",
+      "tlf_empresa": "6004444",
+      "persona_contacto": "contacto5@example.com",
+      "tlf_contacto": "6005555",
+      "espacio_datos": false,
+      "sandbox": false,
+      "markeplace": true
+    },
+    {
+      "id_empresa": "6",
+      "nombre_empresa": "Empresa6",
+      "cif": "D87651234",
+      "direccion": "calle 6",
+      "tlf_empresa": "6006666",
+      "persona_contacto": "contacto6@example.com",
+      "tlf_contacto": "6007777",
+      "espacio_datos": true,
+      "sandbox": false,
+      "markeplace": false
+    },
+    {
+      "id_empresa": "7",
+      "nombre_empresa": "Empresa7",
+      "cif": "E13579246",
+      "direccion": "avenida 7",
+      "tlf_empresa": "6008888",
+      "persona_contacto": "contacto7@example.com",
+      "tlf_contacto": "6009999",
+      "espacio_datos": true,
+      "sandbox": true,
+      "markeplace": false
+    },
+    {
+      "id_empresa": "8",
+      "nombre_empresa": "Empresa8",
+      "cif": "F24681357",
+      "direccion": "calle 8",
+      "tlf_empresa": "6010000",
+      "persona_contacto": "contacto8@example.com",
+      "tlf_contacto": "6011111",
+      "espacio_datos": false,
+      "sandbox": true,
+      "markeplace": true
+    },
+    {
+      "id_empresa": "9",
+      "nombre_empresa": "Empresa9",
+      "cif": "G35792468",
+      "direccion": "avenida 9",
+      "tlf_empresa": "6012222",
+      "persona_contacto": "contacto9@example.com",
+      "tlf_contacto": "6013333",
+      "espacio_datos": true,
+      "sandbox": false,
+      "markeplace": false
+    },
+    {
+      "id_empresa": "10",
+      "nombre_empresa": "Empresa10",
+      "cif": "H46803579",
+      "direccion": "plaza 10",
+      "tlf_empresa": "6014444",
+      "persona_contacto": "contacto10@example.com",
+      "tlf_contacto": "6015555",
+      "espacio_datos": false,
+      "sandbox": false,
+      "markeplace": true
+    },
+    {
+      "id_empresa": "11",
+      "nombre_empresa": "Empresa11",
+      "cif": "I57914680",
+      "direccion": "calle 11",
+      "tlf_empresa": "6016666",
+      "persona_contacto": "contacto11@example.com",
+      "tlf_contacto": "6017777",
+      "espacio_datos": true,
+      "sandbox": true,
+      "markeplace": false
+    },
+    {
+      "id_empresa": "12",
+      "nombre_empresa": "Empresa12",
+      "cif": "J68025791",
+      "direccion": "avenida 12",
+      "tlf_empresa": "6018888",
+      "persona_contacto": "contacto12@example.com",
+      "tlf_contacto": "6019999",
+      "espacio_datos": true,
+      "sandbox": false,
+      "markeplace": true
     }
   ],
   "users": [
@@ -39,6 +159,76 @@
       "tlf_contacto": "444555666",
       "Email": "maria@example.com",
       "dni": "Y1234567Z"
+    },
+    {
+      "id_usuario": "3",
+      "usuario": "Carlos Sánchez",
+      "tlf_contacto": "222333444",
+      "Email": "carlos@example.com",
+      "dni": "Z9876543A"
+    },
+    {
+      "id_usuario": "4",
+      "usuario": "Laura López",
+      "tlf_contacto": "555666777",
+      "Email": "laura@example.com",
+      "dni": "X1234567B"
+    },
+    {
+      "id_usuario": "5",
+      "usuario": "Ana Martín",
+      "tlf_contacto": "888999000",
+      "Email": "ana@example.com",
+      "dni": "W7654321C"
+    },
+    {
+      "id_usuario": "6",
+      "usuario": "Pedro Ruiz",
+      "tlf_contacto": "333444555",
+      "Email": "pedro@example.com",
+      "dni": "V2345678D"
+    },
+    {
+      "id_usuario": "7",
+      "usuario": "Sofía Jiménez",
+      "tlf_contacto": "777888999",
+      "Email": "sofia@example.com",
+      "dni": "U3456789E"
+    },
+    {
+      "id_usuario": "8",
+      "usuario": "Miguel Torres",
+      "tlf_contacto": "666777888",
+      "Email": "miguel@example.com",
+      "dni": "T4567890F"
+    },
+    {
+      "id_usuario": "9",
+      "usuario": "Elena Moreno",
+      "tlf_contacto": "999000111",
+      "Email": "elena@example.com",
+      "dni": "S5678901G"
+    },
+    {
+      "id_usuario": "10",
+      "usuario": "Andrés Díaz",
+      "tlf_contacto": "111222444",
+      "Email": "andres@example.com",
+      "dni": "R6789012H"
+    },
+    {
+      "id_usuario": "11",
+      "usuario": "Carmen Ortega",
+      "tlf_contacto": "222333555",
+      "Email": "carmen@example.com",
+      "dni": "Q7890123I"
+    },
+    {
+      "id_usuario": "12",
+      "usuario": "Roberto Herrera",
+      "tlf_contacto": "333444666",
+      "Email": "roberto@example.com",
+      "dni": "P8901234J"
     }
   ]
 }
