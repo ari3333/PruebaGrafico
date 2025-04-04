@@ -1,0 +1,44 @@
+{
+  "companies": [
+    {
+      "id_empresa": "1",
+      "nombre_empresa": "Empresa1",
+      "cif": "B88313424",
+      "direccion": "calle1",
+      "tlf_empresa": "6665544",
+      "persona_contacto": "persona1@example.com",
+      "tlf_contacto": "6667788",
+      "espacio_datos": true,
+      "sandbox": false,
+      "markeplace": true
+    },
+    {
+      "id_empresa": "2",
+      "nombre_empresa": "Empresa2",
+      "cif": "F10713915",
+      "direccion": "calle2",
+      "tlf_empresa": "6666677",
+      "persona_contacto": "persona2@example.com",
+      "tlf_contacto": "1233399",
+      "espacio_datos": true,
+      "sandbox": false,
+      "markeplace": true
+    }
+  ],
+  "users": [
+    {
+      "id_usuario": "1",
+      "usuario": "Juan Perez",
+      "tlf_contacto": "111222333",
+      "Email": "juan@example.com",
+      "dni": "X6852498E"
+    },
+    {
+      "id_usuario": "2",
+      "usuario": "María García",
+      "tlf_contacto": "444555666",
+      "Email": "maria@example.com",
+      "dni": "Y1234567Z"
+    }
+  ]
+}
