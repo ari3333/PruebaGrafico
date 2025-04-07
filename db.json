@@ -2,7 +2,7 @@
   "companies": [
     {
       "id_empresa": "1",
-      "nombre_empresa": "Empresa1",
+      "nombre_empresa": "AEME 001",
       "cif": "B88313424",
       "direccion": "calle1",
       "tlf_empresa": "6665544",
@@ -14,7 +14,7 @@
     },
     {
       "id_empresa": "2",
-      "nombre_empresa": "Empresa2",
+      "nombre_empresa": "Viral Company",
       "cif": "F10713915",
       "direccion": "calle2",
       "tlf_empresa": "6666677",
