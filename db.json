@@ -155,78 +155,6 @@
       "espacio_datos": true,
       "sandbox": false,
       "markeplace": true
-    },
-    {
-      "id_empresa": "14",
-      "nombre_empresa": "AEME 002",
-      "cif": "B88313425",
-      "direccion": "Calle 2",
-      "tlf_empresa": "6001002",
-      "persona_contacto": "contacto2@empresa.com",
-      "tlf_contacto": "7001002",
-      "espacio_datos": false,
-      "sandbox": true,
-      "markeplace": false
-    },
-    {
-      "id_empresa": "15",
-      "nombre_empresa": "AEME 003",
-      "cif": "B88313426",
-      "direccion": "Calle 3",
-      "tlf_empresa": "6001003",
-      "persona_contacto": "contacto3@empresa.com",
-      "tlf_contacto": "7001003",
-      "espacio_datos": true,
-      "sandbox": false,
-      "markeplace": false
-    },
-    {
-      "id_empresa": "16",
-      "nombre_empresa": "AEME 004",
-      "cif": "B88313427",
-      "direccion": "Calle 4",
-      "tlf_empresa": "6001004",
-      "persona_contacto": "contacto4@empresa.com",
-      "tlf_contacto": "7001004",
-      "espacio_datos": false,
-      "sandbox": false,
-      "markeplace": true
-    },
-    {
-      "id_empresa": "17",
-      "nombre_empresa": "AEME 005",
-      "cif": "B88313428",
-      "direccion": "Calle 5",
-      "tlf_empresa": "6001005",
-      "persona_contacto": "contacto5@empresa.com",
-      "tlf_contacto": "7001005",
-      "espacio_datos": true,
-      "sandbox": true,
-      "markeplace": true
-    },
-    {
-      "id_empresa": "18",
-      "nombre_empresa": "AEME 006",
-      "cif": "B88313429",
-      "direccion": "Calle 6",
-      "tlf_empresa": "6001006",
-      "persona_contacto": "contacto6@empresa.com",
-      "tlf_contacto": "7001006",
-      "espacio_datos": false,
-      "sandbox": true,
-      "markeplace": false
-    },
-    {
-      "id_empresa": "19",
-      "nombre_empresa": "AEME 007",
-      "cif": "B88313430",
-      "direccion": "Calle 7",
-      "tlf_empresa": "6001007",
-      "persona_contacto": "contacto7@empresa.com",
-      "tlf_contacto": "7001007",
-      "espacio_datos": true,
-      "sandbox": false,
-      "markeplace": true
     }
   ],
   "users": [
@@ -327,48 +255,6 @@
       "tlf_contacto": "111222335",
       "Email": "carlos@example.com",
       "dni": "Z6852500G"
-    },
-    {
-      "id_usuario": "15",
-      "usuario": "Ana Rodriguez",
-      "tlf_contacto": "111222336",
-      "Email": "ana@example.com",
-      "dni": "A6852501H"
-    },
-    {
-      "id_usuario": "16",
-      "usuario": "Pedro Fernandez",
-      "tlf_contacto": "111222337",
-      "Email": "pedro@example.com",
-      "dni": "B6852502I"
-    },
-    {
-      "id_usuario": "17",
-      "usuario": "Lucia Gomez",
-      "tlf_contacto": "111222338",
-      "Email": "lucia@example.com",
-      "dni": "C6852503J"
-    },
-    {
-      "id_usuario": "18",
-      "usuario": "Jorge Martinez",
-      "tlf_contacto": "111222339",
-      "Email": "jorge@example.com",
-      "dni": "D6852504K"
-    },
-    {
-      "id_usuario": "19",
-      "usuario": "Elena Alvarez",
-      "tlf_contacto": "111222340",
-      "Email": "elena@example.com",
-      "dni": "E6852505L"
-    },
-    {
-      "id_usuario": "20",
-      "usuario": "Sergio Ramos",
-      "tlf_contacto": "111222341",
-      "Email": "sergio@example.com",
-      "dni": "F6852506M"
     }
   ]
 }
