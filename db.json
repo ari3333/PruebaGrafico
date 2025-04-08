@@ -143,7 +143,153 @@
       "espacio_datos": true,
       "sandbox": false,
       "markeplace": true
-    }
+    },
+    {
+  "empresas": [
+    {
+      "id_empresa": "1",
+      "nombre_empresa": "AEME 001",
+      "cif": "B88313424",
+      "direccion": "Calle 1",
+      "tlf_empresa": "6001001",
+      "persona_contacto": "contacto1@empresa.com",
+      "tlf_contacto": "7001001",
+      "espacio_datos": true,
+      "sandbox": false,
+      "markeplace": true
+    },
+    {
+      "id_empresa": "2",
+      "nombre_empresa": "AEME 002",
+      "cif": "B88313425",
+      "direccion": "Calle 2",
+      "tlf_empresa": "6001002",
+      "persona_contacto": "contacto2@empresa.com",
+      "tlf_contacto": "7001002",
+      "espacio_datos": false,
+      "sandbox": true,
+      "markeplace": false
+    },
+    {
+      "id_empresa": "3",
+      "nombre_empresa": "AEME 003",
+      "cif": "B88313426",
+      "direccion": "Calle 3",
+      "tlf_empresa": "6001003",
+      "persona_contacto": "contacto3@empresa.com",
+      "tlf_contacto": "7001003",
+      "espacio_datos": true,
+      "sandbox": false,
+      "markeplace": false
+    },
+    {
+      "id_empresa": "4",
+      "nombre_empresa": "AEME 004",
+      "cif": "B88313427",
+      "direccion": "Calle 4",
+      "tlf_empresa": "6001004",
+      "persona_contacto": "contacto4@empresa.com",
+      "tlf_contacto": "7001004",
+      "espacio_datos": false,
+      "sandbox": false,
+      "markeplace": true
+    },
+    {
+      "id_empresa": "5",
+      "nombre_empresa": "AEME 005",
+      "cif": "B88313428",
+      "direccion": "Calle 5",
+      "tlf_empresa": "6001005",
+      "persona_contacto": "contacto5@empresa.com",
+      "tlf_contacto": "7001005",
+      "espacio_datos": true,
+      "sandbox": true,
+      "markeplace": true
+    },
+    {
+      "id_empresa": "6",
+      "nombre_empresa": "AEME 006",
+      "cif": "B88313429",
+      "direccion": "Calle 6",
+      "tlf_empresa": "6001006",
+      "persona_contacto": "contacto6@empresa.com",
+      "tlf_contacto": "7001006",
+      "espacio_datos": false,
+      "sandbox": true,
+      "markeplace": false
+    },
+    {
+      "id_empresa": "7",
+      "nombre_empresa": "AEME 007",
+      "cif": "B88313430",
+      "direccion": "Calle 7",
+      "tlf_empresa": "6001007",
+      "persona_contacto": "contacto7@empresa.com",
+      "tlf_contacto": "7001007",
+      "espacio_datos": true,
+      "sandbox": false,
+      "markeplace": true
+    },
+    {
+      "id_empresa": "8",
+      "nombre_empresa": "AEME 008",
+      "cif": "B88313431",
+      "direccion": "Calle 8",
+      "tlf_empresa": "6001008",
+      "persona_contacto": "contacto8@empresa.com",
+      "tlf_contacto": "7001008",
+      "espacio_datos": false,
+      "sandbox": false,
+      "markeplace": false
+    },
+    {
+      "id_empresa": "9",
+      "nombre_empresa": "AEME 009",
+      "cif": "B88313432",
+      "direccion": "Calle 9",
+      "tlf_empresa": "6001009",
+      "persona_contacto": "contacto9@empresa.com",
+      "tlf_contacto": "7001009",
+      "espacio_datos": true,
+      "sandbox": true,
+      "markeplace": false
+    },
+    {
+      "id_empresa": "10",
+      "nombre_empresa": "AEME 010",
+      "cif": "B88313433",
+      "direccion": "Calle 10",
+      "tlf_empresa": "6001010",
+      "persona_contacto": "contacto10@empresa.com",
+      "tlf_contacto": "7001010",
+      "espacio_datos": false,
+      "sandbox": true,
+      "markeplace": true
+    },
+    {
+      "id_empresa": "11",
+      "nombre_empresa": "AEME 011",
+      "cif": "B88313434",
+      "direccion": "Calle 11",
+      "tlf_empresa": "6001011",
+      "persona_contacto": "contacto11@empresa.com",
+      "tlf_contacto": "7001011",
+      "espacio_datos": true,
+      "sandbox": false,
+      "markeplace": false
+    },
+    {
+      "id_empresa": "12",
+      "nombre_empresa": "AEME 012",
+      "cif": "B88313435",
+      "direccion": "Calle 12",
+      "tlf_empresa": "6001012",
+      "persona_contacto": "contacto12@empresa.com",
+      "tlf_contacto": "7001012",
+      "espacio_datos": true,
+      "sandbox": true,
+      "markeplace": true
+
   ],
   "users": [
     {
@@ -229,6 +375,83 @@
       "tlf_contacto": "333444666",
       "Email": "roberto@example.com",
       "dni": "P8901234J"
+    },
+     {
+      "id_usuario": "2",
+      "usuario": "Maria Garcia",
+      "tlf_contacto": "111222334",
+      "Email": "maria@example.com",
+      "dni": "Y6852499F"
+    },
+    {
+      "id_usuario": "3",
+      "usuario": "Carlos Sanchez",
+      "tlf_contacto": "111222335",
+      "Email": "carlos@example.com",
+      "dni": "Z6852500G"
+    },
+    {
+      "id_usuario": "4",
+      "usuario": "Ana Rodriguez",
+      "tlf_contacto": "111222336",
+      "Email": "ana@example.com",
+      "dni": "A6852501H"
+    },
+    {
+      "id_usuario": "5",
+      "usuario": "Pedro Fernandez",
+      "tlf_contacto": "111222337",
+      "Email": "pedro@example.com",
+      "dni": "B6852502I"
+    },
+    {
+      "id_usuario": "6",
+      "usuario": "Lucia Gomez",
+      "tlf_contacto": "111222338",
+      "Email": "lucia@example.com",
+      "dni": "C6852503J"
+    },
+    {
+      "id_usuario": "7",
+      "usuario": "Jorge Martinez",
+      "tlf_contacto": "111222339",
+      "Email": "jorge@example.com",
+      "dni": "D6852504K"
+    },
+    {
+      "id_usuario": "8",
+      "usuario": "Elena Alvarez",
+      "tlf_contacto": "111222340",
+      "Email": "elena@example.com",
+      "dni": "E6852505L"
+    },
+    {
+      "id_usuario": "9",
+      "usuario": "Sergio Ramos",
+      "tlf_contacto": "111222341",
+      "Email": "sergio@example.com",
+      "dni": "F6852506M"
+    },
+    {
+      "id_usuario": "10",
+      "usuario": "Laura Diaz",
+      "tlf_contacto": "111222342",
+      "Email": "laura@example.com",
+      "dni": "G6852507N"
+    },
+    {
+      "id_usuario": "11",
+      "usuario": "Miguel Torres",
+      "tlf_contacto": "111222343",
+      "Email": "miguel@example.com",
+      "dni": "H6852508O"
+    },
+    {
+      "id_usuario": "12",
+      "usuario": "Carmen Ruiz",
+      "tlf_contacto": "111222344",
+      "Email": "carmen@example.com",
+      "dni": "I6852509P"
     }
   ]
 }
