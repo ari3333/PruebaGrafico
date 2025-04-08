@@ -227,66 +227,6 @@
       "espacio_datos": true,
       "sandbox": false,
       "markeplace": true
-    },
-    {
-      "id_empresa": "20",
-      "nombre_empresa": "AEME 008",
-      "cif": "B88313431",
-      "direccion": "Calle 8",
-      "tlf_empresa": "6001008",
-      "persona_contacto": "contacto8@empresa.com",
-      "tlf_contacto": "7001008",
-      "espacio_datos": false,
-      "sandbox": false,
-      "markeplace": false
-    },
-    {
-      "id_empresa": "21",
-      "nombre_empresa": "AEME 009",
-      "cif": "B88313432",
-      "direccion": "Calle 9",
-      "tlf_empresa": "6001009",
-      "persona_contacto": "contacto9@empresa.com",
-      "tlf_contacto": "7001009",
-      "espacio_datos": true,
-      "sandbox": true,
-      "markeplace": false
-    },
-    {
-      "id_empresa": "22",
-      "nombre_empresa": "AEME 010",
-      "cif": "B88313433",
-      "direccion": "Calle 10",
-      "tlf_empresa": "6001010",
-      "persona_contacto": "contacto10@empresa.com",
-      "tlf_contacto": "7001010",
-      "espacio_datos": false,
-      "sandbox": true,
-      "markeplace": true
-    },
-    {
-      "id_empresa": "23",
-      "nombre_empresa": "AEME 011",
-      "cif": "B88313434",
-      "direccion": "Calle 11",
-      "tlf_empresa": "6001011",
-      "persona_contacto": "contacto11@empresa.com",
-      "tlf_contacto": "7001011",
-      "espacio_datos": true,
-      "sandbox": false,
-      "markeplace": false
-    },
-    {
-      "id_empresa": "24",
-      "nombre_empresa": "AEME 012",
-      "cif": "B88313435",
-      "direccion": "Calle 12",
-      "tlf_empresa": "6001012",
-      "persona_contacto": "contacto12@empresa.com",
-      "tlf_contacto": "7001012",
-      "espacio_datos": true,
-      "sandbox": true,
-      "markeplace": true
     }
   ],
   "users": [
@@ -429,27 +369,6 @@
       "tlf_contacto": "111222341",
       "Email": "sergio@example.com",
       "dni": "F6852506M"
-    },
-    {
-      "id_usuario": "21",
-      "usuario": "Laura Diaz",
-      "tlf_contacto": "111222342",
-      "Email": "laura@example.com",
-      "dni": "G6852507N"
-    },
-    {
-      "id_usuario": "22",
-      "usuario": "Miguel Torres",
-      "tlf_contacto": "111222343",
-      "Email": "miguel@example.com",
-      "dni": "H6852508O"
-    },
-    {
-      "id_usuario": "23",
-      "usuario": "Carmen Ruiz",
-      "tlf_contacto": "111222344",
-      "Email": "carmen@example.com",
-      "dni": "I6852509P"
     }
   ]
 }
