@@ -143,18 +143,6 @@
       "espacio_datos": true,
       "sandbox": false,
       "markeplace": true
-    },
-    {
-      "id_empresa": "13",
-      "nombre_empresa": "AEME 001",
-      "cif": "B88313424",
-      "direccion": "Calle 1",
-      "tlf_empresa": "6001001",
-      "persona_contacto": "contacto1@empresa.com",
-      "tlf_contacto": "7001001",
-      "espacio_datos": true,
-      "sandbox": false,
-      "markeplace": true
     }
   ],
   "users": [
@@ -241,20 +229,6 @@
       "tlf_contacto": "333444666",
       "Email": "roberto@example.com",
       "dni": "P8901234J"
-    },
-    {
-      "id_usuario": "13",
-      "usuario": "Maria Garcia",
-      "tlf_contacto": "111222334",
-      "Email": "maria@example.com",
-      "dni": "Y6852499F"
-    },
-    {
-      "id_usuario": "14",
-      "usuario": "Carlos Sanchez",
-      "tlf_contacto": "111222335",
-      "Email": "carlos@example.com",
-      "dni": "Z6852500G"
     }
   ]
 }
