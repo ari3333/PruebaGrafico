@@ -145,9 +145,7 @@
       "markeplace": true
     },
     {
-  "empresas": [
-    {
-      "id_empresa": "1",
+      "id_empresa": "13",
       "nombre_empresa": "AEME 001",
       "cif": "B88313424",
       "direccion": "Calle 1",
@@ -159,7 +157,7 @@
       "markeplace": true
     },
     {
-      "id_empresa": "2",
+      "id_empresa": "14",
       "nombre_empresa": "AEME 002",
       "cif": "B88313425",
       "direccion": "Calle 2",
@@ -171,7 +169,7 @@
       "markeplace": false
     },
     {
-      "id_empresa": "3",
+      "id_empresa": "15",
       "nombre_empresa": "AEME 003",
       "cif": "B88313426",
       "direccion": "Calle 3",
@@ -183,7 +181,7 @@
       "markeplace": false
     },
     {
-      "id_empresa": "4",
+      "id_empresa": "16",
       "nombre_empresa": "AEME 004",
       "cif": "B88313427",
       "direccion": "Calle 4",
@@ -195,7 +193,7 @@
       "markeplace": true
     },
     {
-      "id_empresa": "5",
+      "id_empresa": "17",
       "nombre_empresa": "AEME 005",
       "cif": "B88313428",
       "direccion": "Calle 5",
@@ -207,7 +205,7 @@
       "markeplace": true
     },
     {
-      "id_empresa": "6",
+      "id_empresa": "18",
       "nombre_empresa": "AEME 006",
       "cif": "B88313429",
       "direccion": "Calle 6",
@@ -219,7 +217,7 @@
       "markeplace": false
     },
     {
-      "id_empresa": "7",
+      "id_empresa": "19",
       "nombre_empresa": "AEME 007",
       "cif": "B88313430",
       "direccion": "Calle 7",
@@ -231,7 +229,7 @@
       "markeplace": true
     },
     {
-      "id_empresa": "8",
+      "id_empresa": "20",
       "nombre_empresa": "AEME 008",
       "cif": "B88313431",
       "direccion": "Calle 8",
@@ -243,7 +241,7 @@
       "markeplace": false
     },
     {
-      "id_empresa": "9",
+      "id_empresa": "21",
       "nombre_empresa": "AEME 009",
       "cif": "B88313432",
       "direccion": "Calle 9",
@@ -255,7 +253,7 @@
       "markeplace": false
     },
     {
-      "id_empresa": "10",
+      "id_empresa": "22",
       "nombre_empresa": "AEME 010",
       "cif": "B88313433",
       "direccion": "Calle 10",
@@ -267,7 +265,7 @@
       "markeplace": true
     },
     {
-      "id_empresa": "11",
+      "id_empresa": "23",
       "nombre_empresa": "AEME 011",
       "cif": "B88313434",
       "direccion": "Calle 11",
@@ -279,7 +277,7 @@
       "markeplace": false
     },
     {
-      "id_empresa": "12",
+      "id_empresa": "24",
       "nombre_empresa": "AEME 012",
       "cif": "B88313435",
       "direccion": "Calle 12",
@@ -289,6 +287,8 @@
       "espacio_datos": true,
       "sandbox": true,
       "markeplace": true
+  
+    
 
   ],
   "users": [
