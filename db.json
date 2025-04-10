@@ -151,84 +151,96 @@
       "usuario": "Juan Perez",
       "tlf_contacto": "111222333",
       "Email": "juan@example.com",
-      "dni": "X6852498E"
+      "dni": "X6852498E",
+      "rol":"gestor_consola_pia,administrador_global,consumidor"
     },
     {
       "id_usuario": "2",
       "usuario": "María García",
       "tlf_contacto": "444555666",
       "Email": "maria@example.com",
-      "dni": "Y1234567Z"
+      "dni": "Y1234567Z",
+      "rol":"publicador,consumidor"
     },
     {
       "id_usuario": "3",
       "usuario": "Carlos Sánchez",
       "tlf_contacto": "222333444",
       "Email": "carlos@example.com",
-      "dni": "Z9876543A"
+      "dni": "Z9876543A",
+      "rol":"desarrollador,consumidor"
     },
     {
       "id_usuario": "4",
       "usuario": "Laura López",
       "tlf_contacto": "555666777",
       "Email": "laura@example.com",
-      "dni": "X1234567B"
+      "dni": "X1234567B",
+      "rol":"consumidor"
     },
     {
       "id_usuario": "5",
       "usuario": "Ana Martín",
       "tlf_contacto": "888999000",
       "Email": "ana@example.com",
-      "dni": "W7654321C"
+      "dni": "W7654321C",
+      "rol":"consumidor,administrador_empresa"
     },
     {
       "id_usuario": "6",
       "usuario": "Pedro Ruiz",
       "tlf_contacto": "333444555",
       "Email": "pedro@example.com",
-      "dni": "V2345678D"
+      "dni": "V2345678D",
+      "rol":"consumidor"
     },
     {
       "id_usuario": "7",
       "usuario": "Sofía Jiménez",
       "tlf_contacto": "777888999",
       "Email": "sf231@example.com",
-      "dni": "U3456789E"
+      "dni": "U3456789E",
+      "rol":"gestor_consola_pia,administrador_global,consumidor"
     },
     {
       "id_usuario": "8",
       "usuario": "Miguel Torres",
       "tlf_contacto": "666777888",
       "Email": "miguel@example.com",
-      "dni": "T4567890F"
+      "dni": "T4567890F",
+      "rol":"consumidor,participante"
     },
     {
       "id_usuario": "9",
       "usuario": "Elena Moreno",
       "tlf_contacto": "999000111",
       "Email": "elena@example.com",
-      "dni": "S5678901G"
+      "dni": "S5678901G",
+      "rol":"gestor_consola_pia,administrador_global,consumidor"
     },
     {
       "id_usuario": "10",
       "usuario": "Andrés Díaz",
       "tlf_contacto": "111222444",
       "Email": "andres@example.com",
-      "dni": "R6789012H"
+      "dni": "R6789012H",
+      "rol":"gestor_consola_pia,administrador_global,consumidor"
     },
     {
       "id_usuario": "11",
       "usuario": "Carmen Ortega",
       "tlf_contacto": "222333555",
       "Email": "carmen@example.com",
-      "dni": "Q7890123I"
+      "dni": "Q7890123I",
+      "rol":"gestor_consola_pia,administrador_global,consumidor"
     },
     {
       "id_usuario": "12",
       "usuario": "Roberto Herrera",
       "tlf_contacto": "333444666",
       "Email": "roberto@example.com",
-      "dni": "P8901234J"
+      "dni": "P8901234J",
+      "rol":"gestor_consola_pia,administrador_global,consumidor"
     }
   ]
 }
